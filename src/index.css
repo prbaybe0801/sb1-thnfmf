@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator-button {
+  @apply w-16 h-16 m-1 rounded-full text-white text-2xl font-bold shadow-lg transition-all duration-200 ease-in-out;
+}
+
+.calculator-button:hover {
+  @apply transform scale-105;
+}
+
+.calculator-button:active {
+  @apply transform scale-95;
+}
